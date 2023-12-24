@@ -35,6 +35,7 @@ Using Use application/Browser activity, we open the list.
 ![image](https://github.com/lithos13/FalckCase/assets/68198144/1e04d6b8-56be-4aab-b170-f1a7099e5ddc)
 
 To obtein this data, we use Table Extraction 
+
 ![image](https://github.com/lithos13/FalckCase/assets/68198144/a46978eb-85a3-4fd7-bb36-204f91bef4e7)
 
  
