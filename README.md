@@ -21,6 +21,8 @@ Using a new blank process with a sequence activity, we can build the automation 
 ![image](https://github.com/lithos13/FalckCase/assets/68198144/b2a8a147-8a51-46ce-bd88-9e4ce0fde7d6)
 
 
+
+
 1. We identified a direct URL to access the top 250 best-rated movies. This allows us to access the list directly without navigating through the menu.
    
 ![image](https://github.com/lithos13/FalckCase/assets/68198144/1fdd0ec2-3261-4dae-a6a2-841d757e6fde)
@@ -39,4 +41,10 @@ To obtain this data, we use Table Extraction
 ![image](https://github.com/lithos13/FalckCase/assets/68198144/a46978eb-85a3-4fd7-bb36-204f91bef4e7)
 
  ![image](https://github.com/lithos13/FalckCase/assets/68198144/32cafcb9-a3a2-4976-9862-dd35b79ad809)
+
+
+ 3. Once the data is obtained, we need to clean the information for the title and rate because they come with additional information like this:
+
+![image](https://github.com/lithos13/FalckCase/assets/68198144/45dc87b6-4a96-4936-9780-c81a287df1d5)
+
 
