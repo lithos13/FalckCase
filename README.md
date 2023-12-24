@@ -10,16 +10,22 @@ This case takes the top 250 best rated movies and obteinds from that list, the l
 According to the requirement this automation was developed as follow:
 
 After analyzing the case, all the required information is located on the top-rated movies page.
+
 ![imagen1](https://github.com/lithos13/FalckCase/assets/68198144/51119887-7f49-4797-8ae2-e124da22b377)
 
 It means the automation does not need transactions, and it is not necessary to use the ReFramework template.
 
+
 Using a new blank process with a sequence activity, we can build the automation for this case.
+
 ![image](https://github.com/lithos13/FalckCase/assets/68198144/b2a8a147-8a51-46ce-bd88-9e4ce0fde7d6)
 
+
 1. We identified a direct URL to access the top 250 best-rated movies. This allows us to access the list directly without navigating through the menu.
+   
 ![image](https://github.com/lithos13/FalckCase/assets/68198144/1fdd0ec2-3261-4dae-a6a2-841d757e6fde)
 
-2. The follow step is to obtein the list with the information of (Title,	URL,	Year,	Rate)
+2. The follow step is to obtein the list with the information of
+   
 ![image](https://github.com/lithos13/FalckCase/assets/68198144/1e04d6b8-56be-4aab-b170-f1a7099e5ddc)
  
