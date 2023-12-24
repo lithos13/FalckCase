@@ -25,17 +25,18 @@ Using a new blank process with a sequence activity, we can build the automation 
    
 ![image](https://github.com/lithos13/FalckCase/assets/68198144/1fdd0ec2-3261-4dae-a6a2-841d757e6fde)
 
-Using Use application/Browser activity, we open the list.
+By using the 'Use Application/Browser' activity, we open the list..
 
 ![image](https://github.com/lithos13/FalckCase/assets/68198144/ef787a58-f7b0-4983-b4e1-0ca43ef5e55d)
 
 
-2. The follow step is to obtein the list with the information of
+2. The following step is to obtain the list with the information of
    
 ![image](https://github.com/lithos13/FalckCase/assets/68198144/1e04d6b8-56be-4aab-b170-f1a7099e5ddc)
 
-To obtein this data, we use Table Extraction 
+To obtain this data, we use Table Extraction 
 
 ![image](https://github.com/lithos13/FalckCase/assets/68198144/a46978eb-85a3-4fd7-bb36-204f91bef4e7)
 
- 
+ ![image](https://github.com/lithos13/FalckCase/assets/68198144/32cafcb9-a3a2-4976-9862-dd35b79ad809)
+
