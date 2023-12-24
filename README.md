@@ -49,7 +49,7 @@ To obtain this data, we use table extraction and save it in the 'dt_top250Movies
 
 ![image](https://github.com/lithos13/FalckCase/assets/68198144/45dc87b6-4a96-4936-9780-c81a287df1d5)
 
-By using LINQ, let's remove the numbers from the title. Since we are going to change the data table's data, we need to clone the 'dt_top250Movies' in order to avoid issues with the data.
+By using LINQ, let's remove the numbers from the title. Since we are going to change the data table's data, we need to clone the 'dt_top250Movies' in order to avoid errors.
 
 ![image](https://github.com/lithos13/FalckCase/assets/68198144/74b168a7-f227-4889-a933-08c92df5db4a)
 
