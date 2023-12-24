@@ -32,19 +32,28 @@ By using the 'Use Application/Browser' activity, we open the list..
 ![image](https://github.com/lithos13/FalckCase/assets/68198144/ef787a58-f7b0-4983-b4e1-0ca43ef5e55d)
 
 
+
 2. The following step is to obtain the list with the information of
    
 ![image](https://github.com/lithos13/FalckCase/assets/68198144/1e04d6b8-56be-4aab-b170-f1a7099e5ddc)
 
-To obtain this data, we use Table Extraction 
+To obtain this data, we use table extraction and save it in the 'dt_top250Movies' data table.
 
 ![image](https://github.com/lithos13/FalckCase/assets/68198144/a46978eb-85a3-4fd7-bb36-204f91bef4e7)
 
- ![image](https://github.com/lithos13/FalckCase/assets/68198144/32cafcb9-a3a2-4976-9862-dd35b79ad809)
+![image](https://github.com/lithos13/FalckCase/assets/68198144/32cafcb9-a3a2-4976-9862-dd35b79ad809)
 
 
- 3. Once the data is obtained, we need to clean the information for the title and rate because they come with additional information like this:
+
+3. Once the data is obtained, we need to clean the information for the title and rate because they come with additional information like this:
 
 ![image](https://github.com/lithos13/FalckCase/assets/68198144/45dc87b6-4a96-4936-9780-c81a287df1d5)
+
+By using LINQ, let's remove the numbers from the title. Since we are going to change the data table's data, we need to clone the 'dt_top250Movies' in order to avoid issues with the data.
+
+![image](https://github.com/lithos13/FalckCase/assets/68198144/74b168a7-f227-4889-a933-08c92df5db4a)
+
+the linQ uses Regular expressions to clean the title
+
 
 
