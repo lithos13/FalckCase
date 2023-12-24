@@ -10,3 +10,4 @@ This case takes the top 250 best rated movies and obteinds from that list, the l
 According to the requirement this automation was developed as follow:
 
 After analizing the case, all information required is located on the top rated movies page
+![imagen1](https://github.com/lithos13/FalckCase/assets/68198144/51119887-7f49-4797-8ae2-e124da22b377)
