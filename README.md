@@ -45,33 +45,33 @@ To obtain this data, we use table extraction and save it in the 'dt_top250Movies
 
 
 
-3. Once the data is obtained, we need to clean the information for the title and rate because they come with additional information like this:
+3. Once the data is obtained, we need to clean the information for the `title` and `rate` because they come with additional information like this:
 
 ![image](https://github.com/lithos13/FalckCase/assets/68198144/45dc87b6-4a96-4936-9780-c81a287df1d5)
 
-By using LINQ, let's remove the numbers from the title. Since we are going to change the data table's data, we need to clone the 'dt_top250Movies' in order to avoid errors.
+By using LINQ, let's remove the numbers from the `title`. Since we are going to change the data table's data, we need to clone the 'dt_top250Movies' in order to avoid errors.
 
 ![image](https://github.com/lithos13/FalckCase/assets/68198144/0f12b86a-e590-45e6-87bf-adf043097b3b)
 
 
 > [!NOTE]
-> The linQ uses Regular expressions to clean the title
+> The linQ uses Regular expressions to clean the `title`
 
 
 
-4. Similarly, let's clean the rate data by cloning the data table once again, as we are going to modify the data once more.
+4. Similarly, let's clean the `rate` data by cloning the data table once again, as we are going to modify the data once more.
 
 ![image](https://github.com/lithos13/FalckCase/assets/68198144/596b23d3-0f42-4ac3-b734-aa53619cabc5)
 
 
-5. After cleaning the data, let's move on to create a filter that gives us only the movies filmed after the year 2000.
+5. After cleaning the data, let's move on to create a filter that gives us only `the movies filmed after the year 2000`.
    By using the 'Filter DataTable' activity as shown in the following image:
 
    ![image](https://github.com/lithos13/FalckCase/assets/68198144/8bcbb45f-4252-47d3-83a7-9422da77049f)
 
 
 
-6. If the previous filter provides us with a list of movies, let's apply the filter for movies rated above 8.1
+6. If the previous filter provides us with a list of movies, let's apply the filter for `movies rated above 8.1`
    In this case, we use LINQ because the rate column needs to be handled as a Double in order to make the comparison.
 
    ![image](https://github.com/lithos13/FalckCase/assets/68198144/954439e8-c4dd-419c-b008-dd76ad80b2ed)
