@@ -1,5 +1,5 @@
 # FalckCase
-This case takes the top 250 best rated movies and obteinds from that list, the list of movies rated above of 8.1 filmed after 2000 
+This case involves obtaining the list of the top 250 best-rated movies and, from that list, extracting the movies rated above 8.1 filmed after 2000. 
 
 # Technical Requirements
 
@@ -7,7 +7,7 @@ This case takes the top 250 best rated movies and obteinds from that list, the l
 - Microsoft® Excel® 2019 MSO (versión 2311 compilación 16.0.17029.20028) de 64 bits
 
 # Automation
-According to the requirement this automation was developed as follow:
+According to the requirements, this automation was developed as follows:
 
 After analyzing the case, all the required information is located on the top-rated movies page.
 
@@ -16,7 +16,7 @@ After analyzing the case, all the required information is located on the top-rat
 It means the automation does not need transactions, and it is not necessary to use the ReFramework template.
 
 
-Using a new blank process with a sequence activity, we can build the automation for this case.
+By using a new blank process with a sequence activity, we can build the automation for this case.
 
 ![image](https://github.com/lithos13/FalckCase/assets/68198144/b2a8a147-8a51-46ce-bd88-9e4ce0fde7d6)
 
@@ -33,7 +33,7 @@ By using the 'Use Application/Browser' activity, we open the list..
 
 
 
-2. The following step is to obtain the list with the information of
+2. The following step is to obtain the list with the information of:
    
 ![image](https://github.com/lithos13/FalckCase/assets/68198144/1e04d6b8-56be-4aab-b170-f1a7099e5ddc)
 
