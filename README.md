@@ -23,7 +23,6 @@ By using a new blank process with a sequence activity, we can build the automati
 
 
 
-
 1. We identified a direct URL to access the top 250 best-rated movies. This allows us to access the list directly without navigating through the menu.
    
 ![image](https://github.com/lithos13/FalckCase/assets/68198144/1fdd0ec2-3261-4dae-a6a2-841d757e6fde)
@@ -55,7 +54,8 @@ By using LINQ, let's remove the numbers from the title. Since we are going to ch
 ![image](https://github.com/lithos13/FalckCase/assets/68198144/0f12b86a-e590-45e6-87bf-adf043097b3b)
 
 
-the linQ uses Regular expressions to clean the title
+> [!NOTE]
+> The linQ uses Regular expressions to clean the title
 
 
 
@@ -70,3 +70,15 @@ the linQ uses Regular expressions to clean the title
    ![image](https://github.com/lithos13/FalckCase/assets/68198144/8bcbb45f-4252-47d3-83a7-9422da77049f)
 
 
+
+6. If the previous filter provides us with a list of movies, let's apply the filter for movies rated above 8.1
+   In this case, we use LINQ because the rate column needs to be handled as a Double in order to make the comparison.
+
+   ![image](https://github.com/lithos13/FalckCase/assets/68198144/954439e8-c4dd-419c-b008-dd76ad80b2ed)
+
+
+7. Finally, after applying the filters and if there are movies in the list, let's save the results in an Excel file
+   
+   ![image](https://github.com/lithos13/FalckCase/assets/68198144/6350ed3a-3353-45aa-8a85-e26bfa942549)
+
+   ![image](https://github.com/lithos13/FalckCase/assets/68198144/3e85ebf1-7266-46eb-b1c0-368b0c5c8284)
