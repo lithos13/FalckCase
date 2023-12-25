@@ -11,7 +11,8 @@ According to the requirements, this automation was developed as follows:
 
 After analyzing the case, all the required information is located on the top-rated movies page.
 
-![imagen1](https://github.com/lithos13/FalckCase/assets/68198144/51119887-7f49-4797-8ae2-e124da22b377)
+![image](https://github.com/lithos13/FalckCase/assets/68198144/88bf5f1b-efa1-4ebf-ada1-0ca5a7847f2e)
+
 
 It means the automation does not need transactions, and it is not necessary to use the ReFramework template.
 
@@ -51,9 +52,21 @@ To obtain this data, we use table extraction and save it in the 'dt_top250Movies
 
 By using LINQ, let's remove the numbers from the title. Since we are going to change the data table's data, we need to clone the 'dt_top250Movies' in order to avoid errors.
 
-![image](https://github.com/lithos13/FalckCase/assets/68198144/74b168a7-f227-4889-a933-08c92df5db4a)
+![image](https://github.com/lithos13/FalckCase/assets/68198144/0f12b86a-e590-45e6-87bf-adf043097b3b)
+
 
 the linQ uses Regular expressions to clean the title
 
+
+
+4. Similarly, let's clean the rate data by cloning the data table once again, as we are going to modify the data once more.
+
+![image](https://github.com/lithos13/FalckCase/assets/68198144/596b23d3-0f42-4ac3-b734-aa53619cabc5)
+
+
+5. After cleaning the data, let's move on to create a filter that gives us only the movies filmed after the year 2000.
+   By using the 'Filter DataTable' activity as shown in the following image:
+
+   ![image](https://github.com/lithos13/FalckCase/assets/68198144/8bcbb45f-4252-47d3-83a7-9422da77049f)
 
 
