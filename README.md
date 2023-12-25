@@ -5,6 +5,7 @@ This case involves obtaining the list of the top 250 best-rated movies and, from
 
 - Google Chrome Versión 120.0.6099.111 (Build oficial) (64 bits)
 - Microsoft® Excel® 2019 MSO (versión 2311 compilación 16.0.17029.20028) de 64 bits
+- Uipath Studio 2023.12.0
 
 # Automation
 According to the requirements, this automation was developed as follows:
