@@ -78,7 +78,7 @@ By using LINQ, let's remove the numbers from the `title`. Since we are going to 
    ![image](https://github.com/lithos13/FalckCase/assets/68198144/954439e8-c4dd-419c-b008-dd76ad80b2ed)
 
 
-7. Finally, after applying the filters and if there are movies in the list, let's save the results in an Excel file
+7. Finally, after applying the filters and if there are movies in the list, let's save the results in an Excel file: "C:\FalckCase\dt_top250MoviesResult.xlsx"
    
    ![image](https://github.com/lithos13/FalckCase/assets/68198144/6350ed3a-3353-45aa-8a85-e26bfa942549)
 
