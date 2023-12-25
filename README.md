@@ -68,7 +68,7 @@ By using LINQ, let's remove the numbers from the `title`. Since we are going to 
 5. After cleaning the data, let's move on to create a filter that gives us only `the movies filmed after the year 2000`.
    By using the 'Filter DataTable' activity as shown in the following image:
 
-   ![image](https://github.com/lithos13/FalckCase/assets/68198144/8bcbb45f-4252-47d3-83a7-9422da77049f)
+   ![image](https://github.com/lithos13/FalckCase/assets/68198144/3fd3cc28-a095-4b20-a184-8152256dc81d)
 
 
 
