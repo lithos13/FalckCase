@@ -1,5 +1,5 @@
 # FalckCase
-This case involves obtaining the list of the top 250 best-rated movies and, from that list, extracting the movies rated above 8.1 filmed in the year 2000 or later.. 
+This case involves obtaining the list of the top 250 best-rated movies and, from that list, extracting the movies rated above 8.1 and filmed in the year 2000 or later. 
 
 # Technical Requirements
 
@@ -65,7 +65,7 @@ By using LINQ, let's remove the numbers from the `title`. Since we are going to 
 ![image](https://github.com/lithos13/FalckCase/assets/68198144/596b23d3-0f42-4ac3-b734-aa53619cabc5)
 
 
-5. After cleaning the data, let's move on to create a filter that gives us only `the movies filmed after the year 2000`.
+5. After cleaning the data, let's move on to create a filter that gives us only `movies filmed in the year 2000 and later`.
    By using the 'Filter DataTable' activity as shown in the following image:
 
    ![image](https://github.com/lithos13/FalckCase/assets/68198144/3fd3cc28-a095-4b20-a184-8152256dc81d)
